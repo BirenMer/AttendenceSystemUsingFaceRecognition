@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/pi/Workspace/face-recognition/main.py", line 59, in <module>
+    processframe(ret,frame,known_face_encodings,classNames,1)
+  File "/home/pi/Workspace/face-recognition/util.py", line 116, in processframe
+    markAttendanceIN(name)
+  File "/home/pi/Workspace/face-recognition/util.py", line 19, in markAttendanceIN
+    open_file('AttendancePresent.csv')
+  File "/home/pi/Workspace/face-recognition/util.py", line 12, in open_file
+    temp_name=contents[-1]
+IndexError: list index out of range
